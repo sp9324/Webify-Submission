@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(229, 197, 223);
+}
+
+a {
+    text-decoration: none;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: -21px;
+    left: 555px;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+/* #main-heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
+    position: absolute;
+    top: -21px;
+    left: 565px;
+    color: purple;
+} */
+
+/* main content */
+#homeicon-btn {
+	position: absolute;
+	top: 26px;
+	left: 1450px;
+	cursor: pointer;
+}
+
+#homeicon-btn-img {
+	height: 30px;
+	width: 30px;
+}
+.imagesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 313px;
+}
+
+.indImage {
+    transform: scale(1.6);
+    margin-bottom: 440px;
+    transition: all ease-in 0.5s;
+    box-shadow: 10px 10px 14px #cf72b9;
+}
+
+.indImage:hover {
+    transform: scale(1.8);
+}
+
+/* titles */
+.titles {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    color: #b43fb4;
+    text-shadow: 4px 4px 6px rgb(181 73 172);
+}
+
+#chhichhore-title {
+    position: absolute;
+    top: 138px;
+    left: 684px;
+}
+
+#citylights-title {
+    position: absolute;
+    top: 840px;
+    left: 674px;
+}
+
+#moderntimes-title {
+    position: absolute;
+    top: 1541px;
+    left: 652px;
+}
+
+#lifeisbeautiful-title {
+    position: absolute;
+    top: 2240px;
+    left: 650px;
+}
+
+#forrestgump-title {
+    position: absolute;
+    top: 2941px;
+    left: 656px;
+}
+
+/* subtitles */
+.subtitles {
+    font-size: 22px;
+    font-family: 'Pacifico', cursive;
+    color: #9d269d;
+    font-weight: 100;
+}
+
+#subtitle-1 {
+    position: absolute;
+    top: 630px;
+    left: 30px;
+}
+
+#subtitle-2 {
+    position: absolute;
+    top: 1334px;
+    left: 103px;
+}
+
+#subtitle-3 {
+    position: absolute;
+    top: 2024px;
+    left:48px;
+}
+
+#subtitle-4 {
+    position: absolute;
+    top: 2729px;
+    left: 44px;
+}
+
+#subtitle-5 {
+    position: absolute;
+    top: 3441px;
+    left: 41px;
+    margin-right: 28px
+}
+
+/* arrows */
+#arrow1 {
+    position: absolute;
+    top: 700px;
+}
+
+#arrow2 {
+    position: absolute;
+    top: 1394px;
+}
+
+#arrow3 {
+    position: absolute;
+    top: 2112px;
+}
+
+#arrow4 {
+    position: absolute;
+    top: 2838px;
+}
+
+.downarrows:hover {
+    opacity: 0.4;
+}

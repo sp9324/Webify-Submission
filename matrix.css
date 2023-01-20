@@ -1,0 +1,118 @@
+body {
+    background-color: #76858b;
+    overflow: hidden;
+}
+
+:root {
+    --col-length: 18px;
+    --row-height: 16px;
+}
+
+/* main content */
+#backicon-btn{
+    position: absolute;
+    top: 520px;
+    left: 1450px;
+    cursor: pointer;
+}
+#backicon-btn-img{
+    height: 30px;
+    width: 30px;
+}
+
+#homeicon-btn{
+    position: absolute;
+    top: 470px;
+    left: 1450px;
+    cursor: pointer;
+}
+#homeicon-btn-img{
+    height: 30px;
+    width: 30px;
+}
+header::before {
+    background: url('https://flxt.tmsimg.com/assets/p22804_p_v8_av.jpg') no-repeat top center/cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.desc {
+    margin-top: 24px;
+    margin-left: 26px;
+    margin-right: 9px;
+    display: grid;
+    column-gap: 335px;
+    row-gap: 79px;
+    grid-template-columns: repeat(4, 40px);
+    grid-template-rows: repeat(2, 20px);
+}
+
+.ind-descriptions {
+    white-space: nowrap;
+}
+
+/* buttons */
+.desc-text {
+    display: none;
+}
+
+.show-text {
+    display: inline-block;
+    font-family: 'Yellowtail', cursive;
+    font-style: italic;
+    width: 220px;
+    color: white;
+}
+
+.ind-desc-btn {
+    background-color: rgb(56 56 56 / 50%);
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 16px;
+    width: 344px;
+    transition: all 0.3s ease-in;
+    font-size: 24px;
+    font-family: 'Yellowtail', cursive;
+    color: rgb(199, 198, 198);
+    font-weight: 100;
+}
+
+.ind-desc-btn:hover {
+    color: rgb(230, 227, 227);
+}
+
+/* similar movies */
+.similarmovies {
+    position: absolute;
+    top: 598px;
+    left: 177px;
+}
+
+.indImage {
+    margin: 24px;
+    transition: all ease-in-out 0.5s;
+    box-shadow: 2px 12px 14px rgb(53, 35, 103);
+}
+
+.indImage:hover {
+    transform: translateY(-24px);
+}
+
+#similar-title {
+    position: absolute;
+    top: 544px;
+    left: 660px;
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+    color: rgba(0, 0, 0, 0.776);
+    font-weight: 100;
+}
